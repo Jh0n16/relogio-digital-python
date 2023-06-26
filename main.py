@@ -38,11 +38,11 @@ window.resizable(width=False, height=False) # possibilidade de redefinir o taman
 window.config(bg=background) # definindo a cor de fundo da janela
 
 # definindo a primeira linha dentro da janela
-line_1 = tkinter.Label(window, text="", font=(" 80"), bg=background, fg=font_color)
+line_1 = tkinter.Label(window, text="", font=("Times 80"), bg=background, fg=font_color)
 line_1.grid(row=0, column=0, sticky="NW", padx=5)
 
 # definindo a segunda linha dentro da janela
-line_2 = tkinter.Label(window, text="", font=(" 20"), bg=background, fg=font_color)
+line_2 = tkinter.Label(window, text="", font=("Times 20"), bg=background, fg=font_color)
 line_2.grid(row=1, column=0, sticky="NW", padx=5)
 
 update_clock() # chamando a função que atualiza o display
